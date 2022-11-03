@@ -11,4 +11,4 @@ path = os.listdir()
 @app.route('/')
 
 def home():
-    return "path
+    return path
