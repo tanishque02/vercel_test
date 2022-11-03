@@ -8,6 +8,4 @@ path = os.listdir()
 @app.route('/')
 
 def home():
-    return path
- 
-app.run()
+    return "<h1>{path:}!</h1>"
