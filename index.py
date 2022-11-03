@@ -9,3 +9,5 @@ path = os.listdir()
 
 def home():
     return path
+ 
+app.run()
